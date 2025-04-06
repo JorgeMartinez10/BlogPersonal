@@ -3,6 +3,10 @@ body {
     background-color: #f8f9fa;
 }
 
+header {
+    background-image: url("../assets/imgs/background-header.jpg");
+}
+
 h1,
 h2 {
     font-weight: bold;
