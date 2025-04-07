@@ -1,22 +1,70 @@
 body {
-    font-family: 'Arial', sans-serif;
     background-color: #f8f9fa;
 }
 
 header {
-    background-image: url("../assets/imgs/background-header.jpg");
+    background-color: #343a40;
+    color: white;
 }
 
-h1,
-h2 {
-    font-weight: bold;
+header h1 {
+    margin: 0;
 }
 
-.card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.perfil-img {
+    max-width: 400px;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+}
+
+.section-title {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.habilidades-lista li {
+    margin-bottom: 10px;
+}
+
+#contacto a {
+    color: black;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
 footer a:hover {
-    color: #17a2b8;
+    color: white;
+}
+
+.bg-header {
+    background-image: url('../assets/imgs/background-header.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-header a {
+    color: white;
+}
+
+.bg-main-section {
+    /* background-image: url('../assets/imgs/fondo.png');  */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
 }
