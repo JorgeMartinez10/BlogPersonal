@@ -68,3 +68,7 @@ footer a:hover {
     background-repeat: no-repeat;
     border-radius: 10px;
 }
+
+.carousel-inner {
+    max-height: 700px;
+}
